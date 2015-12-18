@@ -6,17 +6,12 @@ body {
     margin: 0 auto; 
 } 
 
-dl {
-	/*border-top: 1px solid hsl(0, 0%, 33%); */
-	margin: 0;
-	padding-bottom: 3px;
-}
 
 dt {
 	display: inline-block;
 	float: left;
 	clear: left;
-	margin-bottom: 2px;
+	/*margin-bottom: 2px;*/ 
 	/*width: 120px;*/
 
 	/*font-size: 112%;*/
