@@ -2,12 +2,12 @@
 body { 
 	background-color : #FAFAFA;
 	font-family: 'Abel', sans-serif;
-    width: 70%;  
+    width: 65%;  
     margin: 0 auto; 
 } 
 
 dl {
-	border-top: 1px solid hsl(0, 0%, 33%);
+	/*border-top: 1px solid hsl(0, 0%, 33%); */
 	margin: 0;
 	padding-bottom: 3px;
 }
@@ -17,8 +17,8 @@ dt {
 	float: left;
 	clear: left;
 	margin-bottom: 2px;
-	width: 120px;
+	/*width: 120px;*/
 
-	font-size: 112%;
+	/*font-size: 112%;*/
 	text-align: right;
 }
