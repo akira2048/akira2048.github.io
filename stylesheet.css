@@ -1,11 +1,20 @@
-
+html{
+	height: 100%;
+}
 body { 
 	background-color : #FAFAFA;
 	font-family: 'Abel', sans-serif;
     width: 65%;  
     margin: 0 auto; 
+    height: 100%;
 } 
 
+.main{
+	height : 100%;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+}
 
 dt {
 	display: inline-block;
@@ -15,4 +24,8 @@ dt {
 dd {
 	width: 85%;
 	/*margin-left: auto;*/
+}
+
+div{
+	    width:; 320px;
 }
