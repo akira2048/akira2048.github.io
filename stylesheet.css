@@ -8,13 +8,8 @@ body {
 
 
 dt {
-	/*display: inline-block;*/
+	display: inline-block;
 	float: left;
-	/*font-weight: 500;*/
-	font-size: 100%; 
-	/*clear: left;
-	/*margin-bottom: 2px;*/ 
-	/*width: 120px;*/
 }
 
 dd {
