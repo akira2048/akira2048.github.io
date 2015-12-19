@@ -15,17 +15,18 @@ body {
 	flex-wrap: wrap;
 	flex-direction: column;
 }
-
+/*
 dt {
 	display: inline-block;
-	/*float: left;*/
+	float: left;
 }
 
 dd {
 	width: 85%;
-	/*margin-left: auto;*/
+	margin-left: auto;
 }
 
 div{
 	    width:; 320px;
 }
+*/
