@@ -5,79 +5,107 @@
 		<head>
 			<title>portfolio</title>
 			<link href="https://fonts.googleapis.com/earlyaccess/notosansjp.css" rel="stylesheet">
-			<!-- <link href='https://fonts.googleapis.com/css?family=Abel' rel='stylesheet' type='text/css'> -->
-			<link rel="stylesheet" href="stylesheet.css">
-			<meta name="viewport" content="width=device-width">
+			<link rel="stylesheet" type="text/css" href="import.css">
+			<!--<meta name="viewport" content="width=device-width">-->
 		</head>
 		<body>
-			<h2>portfolio</h2>
+			<article>
+				<div class="top">
+					<h1>portfolio page</h1>
+				</div>
+			</article>
 			<section>
-				<h3>2017</h3>
-				<dl id="2017">
-					<dt>SocialPods</dt>
-					<dd><img src="img/pods.jpg" alt="socialpods" width="500px"></dd>
-					<dd>学会発表(IEICE CNR Aug. 1, Otaru, Japan)</dd>
-					<dt>バンダイ ビークルモデル ミレニアム・ファルコン</dt>
-					<dd><img src="img/falcon.jpg" alt="falcon" width="500px"></dd>
-				</dl>
-			</section>
-			<section>
-				<h3>2016</h3>
-				<dl id="2016">
-					<dt>KnobCon</dt>
-					<dd><img src="img/knobcon.jpg" alt="knobcon" width="500px"></dd>
-					<dd>外装デザイン</dd>
-					<dt>Sociable Things</dt>
-					<dd><iframe width="500" height="315" src="https://www.youtube.com/embed/-aG_8SpComE" frameborder="0" allowfullscreen></iframe></dd>
-					<dd>ハードウェア設計</dd>
-					<dt>スキンシップの再現デバイス</dt>
-					<dd><img src="img/theramin.jpg" alt="theramin" width="500px"></dd>
-					<dt>タミヤ 1/35 Ⅱ号戦車</dt>
-					<dd><img src="img/Pz2.jpg" alt="pz2" width="500px"></dd>
-				</dl>
-			</section>
-			<section>
-				<h3>2015</h3>
-				<dl id="2015">
-					<dt>Reinforce Type-Hexa</dt>
-					<dd><img src="img/hexa.jpg" alt="hexa" width="500px"></dd>
-				</dl>
-			</section>
-			<section>
-				<h3>2014</h3>
-				<dl id="2014">
-					<dt>Montbranc:和菓子を出力する3Dフードプリンタ</dt>
-					<dd><img src="img/montbranc.jpg" alt="montbranc" height="500px"></dd>
-					<dd>MakerFare Tokyoに出展</dd>
-					<dd>毎日新聞に掲載</dd>
-					<dt>Chickin in Chickin</dt>
-					<dd><img src="img/cic.jpg" alt="cic" width="500px" height="300px"></dd>
-					<dd>パフォーマンスロボット競技大会出場</dd>
-					<dt>バンダイ MG ジェスタ</dt>
-					<dd><img src="img/jesta.jpg" alt="jesta" width="500px"></dd>
-				</dl>
-			</section>
-			<section>
-				<h3>2013</h3>
-				<dl id="2013">
-					<dt>Reinforce Mk2</dt>
-					<dd><img src="img/mk2.jpg" alt="mk2" width="500px"></dd>
-					<dd>マイコンカーラリー南関東大会Advance部門出場</dd>
-					<dt>Micom Mania!</dt>
-					<dd><img src="img/mimani.jpg" alt="mimani" width="500px"></dd>
-					<dd>リズムゲーム</dd>
-					<dt>Tamago Kake Gohan Maker</dt>
-					<dd><img src="img/tkgm.jpg" alt="tkgm" height="350px"></dd>
-					<dd>ロボTRY出場</dd>
-				</dl>
-			</section>
-			<section>
-				<h3>2012</h3>
-				<dl id="2012">
-					<dt>Reinforce</dt>
-					<dd><img src="img/mk1.jpg" alt="mk1" width="500px" ></dd>
-					<dd>マイコンカーラリー南関東大会Basic部門出場</dd>
-				</dl>
-			</section>
-		</body>
-	</html>
+				<div class="flexbox">
+					<article class="item">
+						<img src="img/pods.jpg"/>
+						<p class="title">Social Pods</p>
+						<div class="mask">
+							<div class="caption">2017:中高生向けSTEM教育用ロボットキットとカリキュラムの設計・実践,<a href="https://www.thingiverse.com/thing:2325889" target="_blank">3D Data</a>, <a href="https://github.com/akira2048/SocialPods" target="_blank">Source code</a>, 学会発表(IEICE CNR Aug. 1, Otaru, Japan)</div>
+						</div>
+					</article>
+					<article class="item">
+						<img src="img/falcon.jpg"/>
+						<p class="title">バンダイ ビークルモデル ミレニアム・ファルコン</p>
+						<div class="mask">
+							<div class="caption">2017:筆塗り</div>
+						</div>
+					</article>
+					<article class="item">
+						<img src="img/knobcon.jpg"/>
+						<p class="title">KnobCon</p>
+						<div class="mask">
+							<div class="caption">2016:ゲーマー・クリエイター向けノブ型回転入力デバイス, コミックマーケット90にて頒布, 外装設計等を担当, <a href="https://tofu-ya.comike.moe/" target="_blank">ホームページ</a>, <a href="https://github.com/kyontan/KnobCon" target="_blank">Source code</a>, <a href="https://www.thingiverse.com/thing:1724123" target="_blank">3D Data</a></div>
+						</div>
+					</article>
+					<article class="item">
+						<img src="img/theramin.jpg"/>
+						<p class="title">スキンシップの保存・再生デバイス</p>
+						<div class="mask">
+							<div class="caption">2016:頭を撫でる行為に注目たVR機器. フォトインタラプタで取得したモーションを再生. 研究室にて製作.</div>
+						</div>
+					</article>
+					<article class="item">
+						<img src="img/Pz2.jpg" />
+						<p class="title">タミヤ 1/35 Ⅱ号戦車</p>
+						<div class="mask">
+							<div class="caption">2016:バケツは3Dプリンタ製</div>
+						</div>
+					</article>
+					<article class="item">
+						<img src="img/hexa.jpg" />
+						<p class="title">Reinforce Type-Hexa</p>
+						<div class="mask">
+							<div class="caption">2015:Autodesk Inventorで設計, 3Dプリンタ製</div>
+						</div>
+					</article>
+					<article class="item">
+						<img src="img/printer.jpg" height="300px" />
+						<p class="title">Montbranc:和菓子を出力する3Dフードプリンタ</p>
+						<div class="mask">
+							<div class="caption">2014:RepRapベースのフードプリンタ, <a href="http://makezine.jp/event/maker2014/tokyokougyoudaigakufuzokukagakugijutukoutougakkou_kadotarobotech/" target="_blank">MakerFaireTokyo2014に出展</a>, <a href="http://mainichi.jp/graph/2014/11/23/20141123k0000m040030000c/001.html" target="_blank">毎日新聞</a>, <a href="http://makezine.jp/blog/2014/11/mft2014_wagashi_3d_kadota.html" target="_blank">Make:</a>ほか, ガジェット通信, MONOist, スーパーニュース等で掲載,紹介</div>
+						</div>
+					</article>
+					<article class="item">
+						<img src="img/cic2.png"/>
+						<p class="title">Chickin in Chickin</p>
+						<div class="mask">
+							<div class="caption">2014:フォーマンスロボット競技大会出場</div>
+						</div>
+					</article>
+					<article class="item">
+						<img src="img/jesta.jpg"/>
+						<p class="title">バンダイ MG ジェスタ</p>
+						<div class="mask">
+							<div class="caption">2014:全塗装</div>
+						</div>
+					</article>
+					<article class="item">
+						<img src="img/mk2.jpg"/>
+						<p class="title">Reinforce Mk2</p>
+						<div class="mask">
+							<div class="caption">2013:マイコンカーラリー南関東大会Advance部門出場</div>
+						</div>
+					</article>
+					<article class="item">
+						<img src="img/mimani.jpg"/>
+						<p class="title">Micom Mania!</p>
+						<div class="mask">
+							<div class="caption">2013:リズムゲーム</div>
+						</div>
+					</article>
+					<article class="item">
+						<img src="img/tkgm.jpg"/>
+						<p class="title">Tamago Kake Gohan Maker</p>
+						<div class="mask">
+							<div class="caption">2013:ロボTRY出場</div>
+						</div>
+					</article>
+					<article class="item">
+						<img src="img/mk1.jpg"/>
+						<p class="title">Reinforce</p>
+						<div class="mask">
+							<div class="caption">2012:マイコンカーラリー南関東大会Basic部門出場</div>
+						</div>
+					</article>
+				</section>
+			</body>
